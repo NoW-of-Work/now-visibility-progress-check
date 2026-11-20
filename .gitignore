@@ -1,0 +1,4 @@
+.DS_Store
+node_modules/
+# Real client data: kept local for re-rendering old v6 reports, never published
+assets/report/example-progress.json

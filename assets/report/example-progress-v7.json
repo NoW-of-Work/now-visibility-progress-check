@@ -1,0 +1,868 @@
+{
+  "fixed": [
+    {
+      "area": "Retired team URLs",
+      "evidence": "All five /team/* URLs now redirect in one hop (TD1)."
+    },
+    {
+      "area": "Fresh index",
+      "evidence": "Brave and Bing results show the current team (TD5)."
+    },
+    {
+      "area": "Clutch profile",
+      "evidence": "Claimed with 4 reviews from October and November (OS4)."
+    },
+    {
+      "area": "Profiles linked",
+      "evidence": "sameAs now lists LinkedIn, Clutch, Crunchbase and Wikidata (OS2)."
+    },
+    {
+      "area": "Breadcrumbs",
+      "evidence": "WebSite and BreadcrumbList markup live (SD5)."
+    }
+  ],
+  "started": [
+    {
+      "area": "Direct answers",
+      "progress": 40,
+      "done": "Three of six service pages open with a plain answer.",
+      "left": "Three service pages still open with a slogan (BQ2)."
+    },
+    {
+      "area": "Pricing content",
+      "progress": 30,
+      "done": "Price ranges added to /pricing.",
+      "left": "No comparison or 'how to choose' page yet (BQ8)."
+    }
+  ],
+  "unchanged": [
+    {
+      "area": "Original research",
+      "detail": "Engagement results still unpublished (BQ4)."
+    },
+    {
+      "area": "Third-party videos",
+      "detail": "No videos naming the firm (OS6)."
+    }
+  ],
+  "newIssues": [
+    {
+      "area": "Mention volume",
+      "detail": "Now measured: below the competitor median (OS5 partial)."
+    }
+  ],
+  "planTracker": [
+    {
+      "action": "Redirect retired URLs, recrawl",
+      "lane": "Technical",
+      "window": "Days 1–30",
+      "status": "done",
+      "note": "Confirmed in Brave and Bing."
+    },
+    {
+      "action": "Answer-first service pages",
+      "lane": "Content",
+      "window": "Days 1–30",
+      "status": "doing",
+      "note": "3 of 6."
+    },
+    {
+      "action": "Claim Clutch and add a review ask",
+      "lane": "Off-site",
+      "window": "Days 1–30",
+      "status": "done",
+      "note": "4 reviews."
+    },
+    {
+      "action": "GA4 AI channel",
+      "lane": "Measurement",
+      "window": "Days 1–30",
+      "status": "done",
+      "note": "Live since 22 Nov."
+    },
+    {
+      "action": "Publish the cost guide",
+      "lane": "Content",
+      "window": "Days 31–60",
+      "status": "todo",
+      "note": "Drafted."
+    }
+  ],
+  "nextSteps": [
+    {
+      "title": "Finish the answer-first service pages",
+      "detail": "Three pages left (BQ2).",
+      "hours": 4,
+      "effort": "half a day",
+      "tag": {
+        "text": "Quick win",
+        "kind": "quick"
+      }
+    },
+    {
+      "title": "Publish the cost guide",
+      "detail": "Answers the pricing questions where the firm is never named (BQ1, BQ8).",
+      "hours": 16,
+      "effort": "2 days"
+    },
+    {
+      "title": "Publish the results report and pitch it",
+      "detail": "Original data for BQ4 and a reason for others to mention the firm (OS5).",
+      "hours": 40,
+      "effort": "5 days"
+    }
+  ],
+  "meta": {
+    "domain": "harbourpine.example",
+    "date": "18 Dec 2026",
+    "isoDate": "2026-12-18",
+    "baselineDate": "18 Nov",
+    "preparedBy": "The NoW of Work",
+    "modelVersion": "7.0",
+    "formalTest": false,
+    "blindRescore": true,
+    "scopeNote": "Both audits full depth, same 12 key pages, same 20-prompt panel."
+  },
+  "scores": {
+    "baseline": {
+      "domain": "harbourpine.example",
+      "date": "18 November 2026",
+      "isoDate": "2026-11-18",
+      "modelVersion": "7.0",
+      "depth": "full",
+      "total": 59,
+      "uncapped": 59,
+      "range": [
+        57,
+        62
+      ],
+      "jrange": [
+        39,
+        80
+      ],
+      "band": "Needs Work",
+      "confidence": "provisional",
+      "pillars": {
+        "os": 50,
+        "td": 75,
+        "bq": 55,
+        "sd": 80
+      },
+      "disciplines": {
+        "SEO": [
+          12,
+          16
+        ],
+        "AEO": [
+          2,
+          6
+        ],
+        "GEO": [
+          6,
+          18
+        ]
+      },
+      "gates": {
+        "G1": "pass",
+        "G2": "verify",
+        "G3": "pass",
+        "G4": "verify",
+        "G5": "verify",
+        "G6": "pass"
+      },
+      "checks": {
+        "OS1": "met",
+        "OS2": "partial",
+        "OS3": "notmet",
+        "OS4": "partial",
+        "OS5": "unverifiable",
+        "OS6": "notmet",
+        "OS7": "partial",
+        "OS8": "met",
+        "OS9": "partial",
+        "BQ1": "partial",
+        "BQ2": "notmet",
+        "BQ3": "partial",
+        "BQ4": "partial",
+        "BQ5": "partial",
+        "BQ6": "met",
+        "BQ7": "met",
+        "BQ8": "notmet",
+        "BQ9": "partial",
+        "BQ10": "met",
+        "TD1": "partial",
+        "TD2": "met",
+        "TD3": "met",
+        "TD4": "met",
+        "TD5": "notmet",
+        "TD6": "partial",
+        "TD7": "met",
+        "TD8": "na",
+        "TD9": "na",
+        "TD10": "met",
+        "SD1": "met",
+        "SD2": "met",
+        "SD3": "met",
+        "SD4": "met",
+        "SD5": "notmet",
+        "PX1": "unverifiable",
+        "PX2": "unverifiable",
+        "PX3": "unverifiable"
+      },
+      "visibility": {
+        "tier": "measured",
+        "engines": [
+          {
+            "engine": "ChatGPT",
+            "rate": 14,
+            "se": 3.380964515139368,
+            "lo": 8,
+            "hi": 24,
+            "answers": 160,
+            "mentions": 22,
+            "prompts": 20,
+            "deff": 1.5,
+            "mdc": 19
+          },
+          {
+            "engine": "Google AI Mode",
+            "rate": 8,
+            "se": 2.780335080146768,
+            "lo": 3,
+            "hi": 17,
+            "answers": 160,
+            "mentions": 12,
+            "prompts": 20,
+            "deff": 1.8,
+            "mdc": 16
+          },
+          {
+            "engine": "Perplexity",
+            "rate": 11,
+            "se": 3.4037008950823497,
+            "lo": 5,
+            "hi": 21,
+            "answers": 160,
+            "mentions": 17,
+            "prompts": 20,
+            "deff": 2,
+            "mdc": 20
+          }
+        ],
+        "controls": [
+          {
+            "name": "Pilot",
+            "engines": [
+              {
+                "engine": "ChatGPT",
+                "rate": 71,
+                "se": 3.597044196037226,
+                "answers": 160,
+                "mentions": 114
+              },
+              {
+                "engine": "Google AI Mode",
+                "rate": 54,
+                "se": 3.942251189084052,
+                "answers": 160,
+                "mentions": 86
+              },
+              {
+                "engine": "Perplexity",
+                "rate": 67,
+                "se": 3.732422117894907,
+                "answers": 160,
+                "mentions": 107
+              }
+            ]
+          },
+          {
+            "name": "Bench",
+            "engines": [
+              {
+                "engine": "ChatGPT",
+                "rate": 24,
+                "se": 3.423265984407288,
+                "answers": 160,
+                "mentions": 39
+              },
+              {
+                "engine": "Google AI Mode",
+                "rate": 19,
+                "se": 3.16948556656951,
+                "answers": 160,
+                "mentions": 31
+              },
+              {
+                "engine": "Perplexity",
+                "rate": 35,
+                "se": 3.7797501247243783,
+                "answers": 160,
+                "mentions": 56
+              }
+            ]
+          },
+          {
+            "name": "Lakeside CPA",
+            "engines": [
+              {
+                "engine": "ChatGPT",
+                "rate": 34,
+                "se": 3.7488844265705845,
+                "answers": 160,
+                "mentions": 54
+              },
+              {
+                "engine": "Google AI Mode",
+                "rate": 20,
+                "se": 3.204846957565341,
+                "answers": 160,
+                "mentions": 32
+              },
+              {
+                "engine": "Perplexity",
+                "rate": 18,
+                "se": 3.2029745632195668,
+                "answers": 160,
+                "mentions": 29
+              }
+            ]
+          }
+        ]
+      },
+      "disciplinesDetail": {
+        "SEO": {
+          "met": 12,
+          "partial": 3,
+          "notmet": 1,
+          "unverifiable": 3,
+          "total": 19
+        },
+        "AEO": {
+          "met": 2,
+          "partial": 3,
+          "notmet": 1,
+          "unverifiable": 0,
+          "total": 6
+        },
+        "GEO": {
+          "met": 6,
+          "partial": 8,
+          "notmet": 4,
+          "unverifiable": 1,
+          "total": 19
+        }
+      }
+    },
+    "current": {
+      "domain": "harbourpine.example",
+      "date": "18 December 2026",
+      "isoDate": "2026-12-18",
+      "modelVersion": "7.0",
+      "depth": "full",
+      "total": 73,
+      "uncapped": 73,
+      "range": [
+        73,
+        73
+      ],
+      "jrange": [
+        56,
+        89
+      ],
+      "band": "Needs Work to On Track",
+      "confidence": "standard",
+      "pillars": {
+        "os": 61,
+        "td": 94,
+        "bq": 65,
+        "sd": 100
+      },
+      "disciplines": {
+        "SEO": [
+          14,
+          16
+        ],
+        "AEO": [
+          2,
+          6
+        ],
+        "GEO": [
+          9,
+          19
+        ]
+      },
+      "gates": {
+        "G1": "pass",
+        "G2": "verify",
+        "G3": "pass",
+        "G4": "verify",
+        "G5": "verify",
+        "G6": "pass"
+      },
+      "checks": {
+        "OS1": "met",
+        "OS2": "met",
+        "OS3": "notmet",
+        "OS4": "met",
+        "OS5": "partial",
+        "OS6": "notmet",
+        "OS7": "partial",
+        "OS8": "met",
+        "OS9": "partial",
+        "BQ1": "partial",
+        "BQ2": "partial",
+        "BQ3": "partial",
+        "BQ4": "partial",
+        "BQ5": "partial",
+        "BQ6": "met",
+        "BQ7": "met",
+        "BQ8": "partial",
+        "BQ9": "partial",
+        "BQ10": "met",
+        "TD1": "met",
+        "TD2": "met",
+        "TD3": "met",
+        "TD4": "met",
+        "TD5": "met",
+        "TD6": "partial",
+        "TD7": "met",
+        "TD8": "na",
+        "TD9": "na",
+        "TD10": "met",
+        "SD1": "met",
+        "SD2": "met",
+        "SD3": "met",
+        "SD4": "met",
+        "SD5": "met",
+        "PX1": "unverifiable",
+        "PX2": "unverifiable",
+        "PX3": "unverifiable"
+      },
+      "visibility": {
+        "tier": "measured",
+        "engines": [
+          {
+            "engine": "ChatGPT",
+            "rate": 15,
+            "se": 3.8066429530115187,
+            "lo": 8,
+            "hi": 26,
+            "answers": 160,
+            "mentions": 24,
+            "prompts": 20,
+            "deff": 1.8,
+            "mdc": 21
+          },
+          {
+            "engine": "Google AI Mode",
+            "rate": 8,
+            "se": 2.780335080146768,
+            "lo": 3,
+            "hi": 17,
+            "answers": 160,
+            "mentions": 12,
+            "prompts": 20,
+            "deff": 1.8,
+            "mdc": 16
+          },
+          {
+            "engine": "Perplexity",
+            "rate": 11,
+            "se": 3.4037008950823497,
+            "lo": 5,
+            "hi": 21,
+            "answers": 160,
+            "mentions": 17,
+            "prompts": 20,
+            "deff": 2,
+            "mdc": 20
+          }
+        ],
+        "controls": [
+          {
+            "name": "Pilot",
+            "engines": [
+              {
+                "engine": "ChatGPT",
+                "rate": 71,
+                "se": 3.597044196037226,
+                "answers": 160,
+                "mentions": 114
+              },
+              {
+                "engine": "Google AI Mode",
+                "rate": 54,
+                "se": 3.942251189084052,
+                "answers": 160,
+                "mentions": 86
+              },
+              {
+                "engine": "Perplexity",
+                "rate": 67,
+                "se": 3.732422117894907,
+                "answers": 160,
+                "mentions": 107
+              }
+            ]
+          },
+          {
+            "name": "Bench",
+            "engines": [
+              {
+                "engine": "ChatGPT",
+                "rate": 24,
+                "se": 3.423265984407288,
+                "answers": 160,
+                "mentions": 39
+              },
+              {
+                "engine": "Google AI Mode",
+                "rate": 19,
+                "se": 3.16948556656951,
+                "answers": 160,
+                "mentions": 31
+              },
+              {
+                "engine": "Perplexity",
+                "rate": 35,
+                "se": 3.7797501247243783,
+                "answers": 160,
+                "mentions": 56
+              }
+            ]
+          },
+          {
+            "name": "Lakeside CPA",
+            "engines": [
+              {
+                "engine": "ChatGPT",
+                "rate": 34,
+                "se": 3.7488844265705845,
+                "answers": 160,
+                "mentions": 54
+              },
+              {
+                "engine": "Google AI Mode",
+                "rate": 20,
+                "se": 3.204846957565341,
+                "answers": 160,
+                "mentions": 32
+              },
+              {
+                "engine": "Perplexity",
+                "rate": 18,
+                "se": 3.2029745632195668,
+                "answers": 160,
+                "mentions": 29
+              }
+            ]
+          }
+        ]
+      },
+      "disciplinesDetail": {
+        "SEO": {
+          "met": 14,
+          "partial": 2,
+          "notmet": 0,
+          "unverifiable": 3,
+          "total": 19
+        },
+        "AEO": {
+          "met": 2,
+          "partial": 4,
+          "notmet": 0,
+          "unverifiable": 0,
+          "total": 6
+        },
+        "GEO": {
+          "met": 9,
+          "partial": 8,
+          "notmet": 2,
+          "unverifiable": 0,
+          "total": 19
+        }
+      }
+    }
+  },
+  "visibility": {
+    "baseline": {
+      "tier": "measured",
+      "engines": [
+        {
+          "engine": "ChatGPT",
+          "rate": 14,
+          "se": 3.380964515139368,
+          "lo": 8,
+          "hi": 24,
+          "answers": 160,
+          "mentions": 22,
+          "prompts": 20,
+          "deff": 1.5,
+          "mdc": 19
+        },
+        {
+          "engine": "Google AI Mode",
+          "rate": 8,
+          "se": 2.780335080146768,
+          "lo": 3,
+          "hi": 17,
+          "answers": 160,
+          "mentions": 12,
+          "prompts": 20,
+          "deff": 1.8,
+          "mdc": 16
+        },
+        {
+          "engine": "Perplexity",
+          "rate": 11,
+          "se": 3.4037008950823497,
+          "lo": 5,
+          "hi": 21,
+          "answers": 160,
+          "mentions": 17,
+          "prompts": 20,
+          "deff": 2,
+          "mdc": 20
+        }
+      ],
+      "controls": [
+        {
+          "name": "Pilot",
+          "engines": [
+            {
+              "engine": "ChatGPT",
+              "rate": 71,
+              "se": 3.597044196037226,
+              "answers": 160,
+              "mentions": 114
+            },
+            {
+              "engine": "Google AI Mode",
+              "rate": 54,
+              "se": 3.942251189084052,
+              "answers": 160,
+              "mentions": 86
+            },
+            {
+              "engine": "Perplexity",
+              "rate": 67,
+              "se": 3.732422117894907,
+              "answers": 160,
+              "mentions": 107
+            }
+          ]
+        },
+        {
+          "name": "Bench",
+          "engines": [
+            {
+              "engine": "ChatGPT",
+              "rate": 24,
+              "se": 3.423265984407288,
+              "answers": 160,
+              "mentions": 39
+            },
+            {
+              "engine": "Google AI Mode",
+              "rate": 19,
+              "se": 3.16948556656951,
+              "answers": 160,
+              "mentions": 31
+            },
+            {
+              "engine": "Perplexity",
+              "rate": 35,
+              "se": 3.7797501247243783,
+              "answers": 160,
+              "mentions": 56
+            }
+          ]
+        },
+        {
+          "name": "Lakeside CPA",
+          "engines": [
+            {
+              "engine": "ChatGPT",
+              "rate": 34,
+              "se": 3.7488844265705845,
+              "answers": 160,
+              "mentions": 54
+            },
+            {
+              "engine": "Google AI Mode",
+              "rate": 20,
+              "se": 3.204846957565341,
+              "answers": 160,
+              "mentions": 32
+            },
+            {
+              "engine": "Perplexity",
+              "rate": 18,
+              "se": 3.2029745632195668,
+              "answers": 160,
+              "mentions": 29
+            }
+          ]
+        }
+      ]
+    },
+    "current": {
+      "tier": "measured",
+      "engines": [
+        {
+          "engine": "ChatGPT",
+          "rate": 15,
+          "se": 3.8066429530115187,
+          "lo": 8,
+          "hi": 26,
+          "answers": 160,
+          "mentions": 24,
+          "prompts": 20,
+          "deff": 1.8,
+          "mdc": 21
+        },
+        {
+          "engine": "Google AI Mode",
+          "rate": 8,
+          "se": 2.780335080146768,
+          "lo": 3,
+          "hi": 17,
+          "answers": 160,
+          "mentions": 12,
+          "prompts": 20,
+          "deff": 1.8,
+          "mdc": 16
+        },
+        {
+          "engine": "Perplexity",
+          "rate": 11,
+          "se": 3.4037008950823497,
+          "lo": 5,
+          "hi": 21,
+          "answers": 160,
+          "mentions": 17,
+          "prompts": 20,
+          "deff": 2,
+          "mdc": 20
+        }
+      ],
+      "controls": [
+        {
+          "name": "Pilot",
+          "engines": [
+            {
+              "engine": "ChatGPT",
+              "rate": 71,
+              "se": 3.597044196037226,
+              "answers": 160,
+              "mentions": 114
+            },
+            {
+              "engine": "Google AI Mode",
+              "rate": 54,
+              "se": 3.942251189084052,
+              "answers": 160,
+              "mentions": 86
+            },
+            {
+              "engine": "Perplexity",
+              "rate": 67,
+              "se": 3.732422117894907,
+              "answers": 160,
+              "mentions": 107
+            }
+          ]
+        },
+        {
+          "name": "Bench",
+          "engines": [
+            {
+              "engine": "ChatGPT",
+              "rate": 24,
+              "se": 3.423265984407288,
+              "answers": 160,
+              "mentions": 39
+            },
+            {
+              "engine": "Google AI Mode",
+              "rate": 19,
+              "se": 3.16948556656951,
+              "answers": 160,
+              "mentions": 31
+            },
+            {
+              "engine": "Perplexity",
+              "rate": 35,
+              "se": 3.7797501247243783,
+              "answers": 160,
+              "mentions": 56
+            }
+          ]
+        },
+        {
+          "name": "Lakeside CPA",
+          "engines": [
+            {
+              "engine": "ChatGPT",
+              "rate": 34,
+              "se": 3.7488844265705845,
+              "answers": 160,
+              "mentions": 54
+            },
+            {
+              "engine": "Google AI Mode",
+              "rate": 20,
+              "se": 3.204846957565341,
+              "answers": 160,
+              "mentions": 32
+            },
+            {
+              "engine": "Perplexity",
+              "rate": 18,
+              "se": 3.2029745632195668,
+              "answers": 160,
+              "mentions": 29
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "history": [
+    {
+      "label": "18 Nov",
+      "total": 59
+    },
+    {
+      "label": "18 Dec",
+      "total": 73
+    }
+  ],
+  "story": {
+    "coverHeadline": "The stale index is fixed. *Mention rates are for information this month.*",
+    "coverLede": "A fictional sample month: what changed since the 18 November audit, compared like for like, and what’s next.",
+    "scorecardHeadline": "Technical and off-site checks moved. *Mention rates get a formal test each quarter.*",
+    "scorecardLede": "Seven checks improved and none got worse. Mention volume (OS5) became measurable after a tracker was set up; that is measurement, so it is left out of the like-for-like score.",
+    "openHeadline": "Still open: *pricing and comparison content.*",
+    "nextHeadline": "Three moves, *in priority order.*"
+  },
+  "method": {
+    "lede": "Both audits used scoring model 7.0, the same 12 key pages and the same 20-prompt panel (run once a day for 8 days on 3 engines). Checks were re-scored before the baseline scores were opened.",
+    "caveats": [
+      {
+        "title": "Part of the raw index move is measurement.",
+        "text": "A mention tracker made OS5 measurable; the cover uses only checks assessed in both audits."
+      },
+      {
+        "title": "Monthly mention rates are descriptive.",
+        "text": "At 20 prompts only large moves are detectable; formal verdicts come at the quarterly re-audit against the original audit."
+      },
+      {
+        "title": "Page speed is still not measured,",
+        "text": "so that pillar is left out of both totals."
+      }
+    ],
+    "next": "Run the next progress check on or after 18 January 2027 with the same panel; the formal quarterly re-audit is due 18 February 2027."
+  }
+}
