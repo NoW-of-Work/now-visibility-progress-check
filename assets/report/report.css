@@ -231,3 +231,8 @@ table.data.tight th{padding-bottom:4px}
 
 .eyebrow,h1,.lede,.sub,h3{break-after:avoid}
 table.data tr.group{break-after:avoid}
+table.data td{overflow-wrap:anywhere;word-break:break-word}
+table.data td.mono{word-break:break-all}
+svg{max-width:100%;height:auto}
+.cards>*,.cols2>*,.grid2>*,.defs>*{min-width:0}
+.card .meta .pill{white-space:normal;line-height:1.35;max-width:100%}
