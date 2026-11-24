@@ -78,7 +78,8 @@ export const CHECKS = {
 };
 
 const RESULTS = { met: 1, partial: 0.5, notmet: 0, unverifiable: null, na: null };
-export const RESULT_LABEL = { met: 'Met', partial: 'Partial', notmet: 'Not met', unverifiable: 'Unverifiable', na: 'n/a' };
+// Printed words (v7.2.1): plain status, not grading language. Data values stay met / partial / notmet / unverifiable.
+export const RESULT_LABEL = { met: 'Good', partial: 'Needs attention', notmet: 'Missing', unverifiable: 'Verify', na: 'n/a' };
 export const RESULT_PILL = { met: 'good', partial: 'needs', notmet: 'missing', unverifiable: 'verify', na: 'grey' };
 export const GATE_LABEL = { pass: ['Pass', 'good'], fail: ['Fail', 'missing'], verify: ['Verify', 'verify'], choice: ['Your choice', 'grey'] };
 

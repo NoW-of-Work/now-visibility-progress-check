@@ -93,6 +93,8 @@ both.
 
 ## Version history
 
+**1.2.2**: Check results print as Good / Needs attention / Missing / Verify (shared `scoring.mjs`, same as audit 7.2.1). Data values and method unchanged.
+
 **1.2.1**: Report layout fix. Long labels wrap instead of shrinking the whole PDF (shared `report.css`, same as audit 7.0.1). Method unchanged.
 
 **1.2.0**: First public release. Scoring model v7.0: like-for-like index on checks assessed in both audits,

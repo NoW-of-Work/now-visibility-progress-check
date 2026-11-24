@@ -16,7 +16,7 @@ compatibility: >
   print-ready HTML file. Optional connectors sharpen the numbers: OpenSEO, Google Analytics, Search Console.
 metadata:
   author: The NoW of Work
-  version: 1.2.1
+  version: 1.2.2
 ---
 
 # NoW Visibility Progress Check
